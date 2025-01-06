@@ -1,14 +1,14 @@
-## Real Estate MVP
+# Real Estate MVP
 This project is a full-stack web application for managing real estate listings, developed as part of a Udemy course titled "Real Estate MVP with Django REST Framework, Next.js (React), Docker, NGINX, TypeScript, Redux, RTK Query, and more." The project demonstrates the integration of modern technologies to build a scalable and efficient real estate platform.
 
 Features
-# Frontend:
+## Frontend:
 
 Built with Next.js (React framework).
 State management with Redux and RTK Query.
 Type-safe development using TypeScript.
 Responsive UI for seamless experience across devices.
-# Backend:
+## Backend:
 
 RESTful API built using Django REST Framework.
 Secure user authentication with JWT.
