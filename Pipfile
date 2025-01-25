@@ -30,4 +30,4 @@ watchfiles = "==0.21.0"
 black = "==24.3.0"
 
 [requires]
-python_version = "3.11"
+python_version = "3.12.3"
