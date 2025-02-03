@@ -29,7 +29,7 @@ ALLOWED_HOSTS = ["localhost", "127.0.0.1", "0.0.0.0"]
 ADMIN_URL = getenv("DJANGO_ADMIN_URL")
 EMAIL_BACKEND = "djcelery_email.backends.CeleryEmailBackend"
 EMAIL_HOST = getenv("EMAIL_HOST")
-EMAIL_HOST = getenv("EMAIL_PORT")
+EMAIL_PORT = getenv("EMAIL_PORT")
 DEFAULT_FROM_EMAIL = getenv("DEFAULT_FROM_EMAIL")
 DOMAIN = getenv("DOMAIN")
 

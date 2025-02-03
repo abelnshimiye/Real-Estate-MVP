@@ -184,6 +184,8 @@ cython_debug/
 
 # dependencies
 !client/src/lib
+
+# dependencies
 client/node_modules
 client/.pnp
 client/.pnp.*
@@ -222,3 +224,4 @@ client/.vercel
 # typescript
 client/*.tsbuildinfo
 client/next-env.d.ts
+
