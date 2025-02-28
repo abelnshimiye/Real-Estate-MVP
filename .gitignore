@@ -185,15 +185,13 @@ cython_debug/
 # dependencies
 !client/src/lib
 
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
 # dependencies
 client/node_modules
 client/.pnp
-client/.pnp.*
-client/.yarn/*
-!client/.yarn/patches
-!client/.yarn/plugins
-!client/.yarn/releases
-!client/.yarn/versions
+client/.pnp.js
+client/.yarn/install-state.gz
 
 # testing
 client/coverage
@@ -213,10 +211,9 @@ client/*.pem
 client/npm-debug.log*
 client/yarn-debug.log*
 client/yarn-error.log*
-client/.pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-client/.env*
+# local env files
+client/.env*.local
 
 # vercel
 client/.vercel
