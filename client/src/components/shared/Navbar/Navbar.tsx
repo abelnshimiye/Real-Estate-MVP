@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import ThemeSwitcher from './ThemeSwitcher'
 import MobileNavbar from './MobileNavbar'
+import AuthAvatar from './AuthAvatar'
 
 const Navbar = () => {
   return (
@@ -19,7 +20,7 @@ const Navbar = () => {
       {/* placeholder theme switcher component */}
       <ThemeSwitcher />
 
-      {/* <AuthAvatar /> */}
+      <AuthAvatar />
       {/* placeholder theme switcher component */}
       <MobileNavbar />
     </div>
